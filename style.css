@@ -2,6 +2,47 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.menuTop{
-    margin: 0;
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #101010;
+}
+
+
+a.nav-item {
+    padding: 0;
+    margin: 0 17px;
+}
+
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+}
+
+.khoitt1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    width: 50%;
+    height: 100%;
+    background: #e4555b;
+}
+
+@media (max-width: 576px){
+    *{
+
+    }
+}
+
+@media (max-width: 576px){
+    a.navbar-nav{
+        display: block;
+    }
 }
