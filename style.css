@@ -3,6 +3,34 @@ body {
 
 }
 
+.xuong {
+    width: 40px;
+    height: 77px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 7%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 67%;
+    margin-left: -2px;
+}
+
+.xuong:hover {
+    bottom: 2%;
+}
+
 .khoittnho {
     margin-top: 55px;
 }
@@ -48,7 +76,7 @@ a.nav-item {
 .tt {
     z-index: 2;
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .tt img {
