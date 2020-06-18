@@ -2,6 +2,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+.khoittnho {
+    margin-top: 55px;
+}
+
+h3.tieudecap3 {
+    font-size: 18px;
+    color: #e35855;
+    margin-bottom: 20px;
+}
 body, html{
     height: 100%;
     width: 100%;
@@ -66,6 +76,44 @@ a.nuthire.btn.btn-primary {
     border: none;
     border-radius: 0px;
 }
+.tieudeto {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: Segoe ui light;
+    color: #555555;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+span.dam {
+    font-weight: bold;
+    font-family: segoe ui;
+}
+
+span.motaqt {
+    font-size: 18px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #636363;
+}
+
 @media (max-width: 576px){
     *{
 
